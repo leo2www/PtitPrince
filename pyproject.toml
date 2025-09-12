@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ptitprince-master"
+version = "0.2.7"
+description = "A Python implementation of Rainclouds, originally on R, ggplot2. Written on top of seaborn."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+]
+
+keywords = [
+    "data visualization",
+    "raincloud plots",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+]
+
+[project.urls]
+Homepage = "https://github.com/leo2www/PtitPrince.git"
+Repository = "https://github.com/leo2www/PtitPrince.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ptitprince"]
+
+[dependency-groups]
+dev = [
+    "hatchling>=1.27.0",
+]
