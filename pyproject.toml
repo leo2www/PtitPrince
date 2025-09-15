@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ptitprince-master"
+name = "ptitprince"
 version = "0.2.7"
 description = "A Python implementation of Rainclouds, originally on R, ggplot2. Written on top of seaborn."
 readme = "README.md"
