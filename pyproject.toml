@@ -7,7 +7,7 @@ name = "ptiprince"
 version = "0.2.7"
 description = "A Python implementation of Rainclouds, originally on R, ggplot2. Written on top of seaborn."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "matplotlib>=3.10.6",
     "numpy>=2.3.3",
